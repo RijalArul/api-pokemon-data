@@ -1,0 +1,32 @@
+{
+  "name": "api-pokemon-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RijalArul/api-pokemon-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RijalArul/api-pokemon-data/issues"
+  },
+  "homepage": "https://github.com/RijalArul/api-pokemon-data#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "ioredis": "^4.28.5",
+    "pokedex-promise-v2": "^4.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
