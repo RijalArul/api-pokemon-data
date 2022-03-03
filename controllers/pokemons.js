@@ -19,9 +19,9 @@ class PokemonController {
 
   static async detail (req, res) {
     try {
-      const { id } = req.params
+      const { name } = req.params
 
-      const response = await BASE_URL_API_POKEMONS.get(`pokemon/${+id}`)
+      const response = await BASE_URL_API_POKEMONS.get(`pokemon/${name}`)
       const { data } = response
       res.status(200).json({
         data: data,
